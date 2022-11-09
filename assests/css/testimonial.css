@@ -1,0 +1,122 @@
+.testimonial {
+    padding: 150px 0;
+}
+
+.testimonial-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.slider{
+    max-width: 750px;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px;
+    text-align: center;
+    gap: 15px 0;
+}
+.slide-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.slide-icon > img{
+    width: 100%;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.slide:hover > .slide-icon > img{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.slick-arrow{
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 20px);
+    width: 40px;
+    color: transparent;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 100%;
+}
+.slick-prev{
+    left: calc(50% - 50px);
+    background: var(--red) url(../images/angle-left.png);
+    background-position: center;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.slick-prev:hover{
+    background: var(--yellow) url(../images/angle-left.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.slick-next{
+    right: calc(50% - 50px);
+    background: var(--red) url(../images/angle-right.png);
+    background-position: center;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.slick-next:hover{
+    background: var(--yellow) url(../images/angle-right.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+@media(max-width: 500px){
+    .testimonial {
+        padding: 100px 0;
+    }
+    .slick-arrow{
+        top: calc(100% + 10px);
+        width: 30px;
+        height: 30px;
+    }
+    .slick-prev{
+        left: calc(50% - 40px);
+    }
+    .slick-next{
+        right: calc(50% - 40px);
+    }
+}

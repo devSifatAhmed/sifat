@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Sifat Ahmed</title>
+
+    <link rel="shortcut icon" href="../assests/favicon.png" type="image/x-icon">
+
+    <!-- css start -->
+    <link rel="stylesheet" href="./assests/css/global.css">
+    <link rel="stylesheet" href="./assests/css/side-bar.css">
+    <link rel="stylesheet" href="./assests/css/header.css">
+    <link rel="stylesheet" href="./assests/css/home.css">
+    <!-- css end -->
+
+
+    <!-- font-awesome start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- font-awesome end -->
+</head>
+
+<body>
+    <!-- side-bar start -->
+    <aside id="side-bar">
+        <div class="side-bar-container">
+            <div class="side-bar-header">
+                <div class="logo">
+                    <a href="./" title="Admin | Sifat Ahmed">
+                        <i class="fas fa-user"></i>
+                        <span>Sifat</span>
+                    </a>
+                </div>
+                <div class="three-dot-btn">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="side-bar-admin-name">
+                <div class="img">
+                    <img src="../assests/images/hero.png" alt="Profile Image">
+                    <div class="circle"></div>
+                </div>
+                <div class="text">
+                    <h3>Sifat Ahmed</h3>
+                    <span>Admin</span>
+                </div>
+            </div>
+            <div class="side-bar-menu">
+                <ul>
+                    <li class="home">
+                        <a href="#home"><i class="fas fa-home"></i>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="about">
+                        <a href="#about"><i class="fas fa-wind"></i>
+                            <p>About</p>
+                        </a>
+                    </li>
+                    <li class="service">
+                        <a href="#service"><i class="fas fa-server"></i>
+                            <p>Service</p>
+                        </a>
+                    </li>
+                    <li class="showcase">
+                        <a href="#showcase"><i class="fas fa-photo-video"></i>
+                            <p>Showcase</p>
+                        </a>
+                    </li>
+                    <li class="testi">
+                        <a href="#testimonial"><i class="fas fa-star"></i>
+                            <p>Testimonial</p>
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#social-links"><i class="fas fa-share-alt-square"></i>
+                            <p>Social Links</p>
+                        </a>
+                    </li>
+                    <li class="messages">
+                        <a href="#messages"><i class="fas fa-comment-alt"></i>
+                            <p>Messages</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <!-- side-bar end -->
+
+    <!-- header section start -->
+    <header id="header">
+        <div class="mode">
+            <div class="mode-btn"></div>
+        </div>
+        <div class="header-profile">
+            <div class="img">
+                <img src="../assests/images/hero.png" alt="Profile Image">
+            </div>
+            <div class="text">
+                <p>Sifat Ahmed</p>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <div class="drop-down">
+                <a href="#edit-profile">Edit Profile</a>
+                <a href="#logout">Logout</a>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+
+    <!-- home section start -->
+    <section id="home" class="display">
+        <!-- container start -->
+        <div class="container">
+            <!-- content box start -->
+            <form class="form" action="./" method="post" enctype="multipart/form-data">
+                <h5>HOME</h5>
+                <div class="top">
+                    <div class="field">
+                        <label>Title/Name</label>
+                        <input type="text" class="title" value="sifat Ahmed">
+                    </div>
+                    <div class="field">
+                        <label>Paragraph/Description</label>
+                        <textarea class="pera">An enthusiastic web UI/UX designer and developer from Dhaka, Bangladesh.
+                        </textarea>
+                    </div>
+                    <div class="field">
+                        <label>CV</label>
+                        <input type="file" class="cv" accept=".pdf, .docx, .doc">
+                    </div>
+                    <div class="field">
+                        <label>Profile Image</label>
+                        <input type="file" class="profile-img" accept=".jpeg, .png, .jpg, .svg">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button type="submit" class="submit-home">Submit</button>
+                </div>
+            </form>
+            <!-- content box end -->
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- home section end -->
+    <!-- about section start -->
+    <section id="about" class="display">
+        <!-- container start -->
+        <div class="container">
+            <form action="./" class="form">
+                <h5>ABOUT</h5>
+                <div class="top">
+                    <div class="field">
+                        <label>Mail Link</label>
+                        <input type="text" value="contact@sifatahmed.com">
+                    </div>
+                    <div class="field">
+                        <label>Mail Mobile</label>
+                        <input type="text" value="+8801919367347">
+                    </div>
+                    <div class="field">
+                        <label>Google Map Address</label>
+                        <input type="text" value="https://www.google.com/maps/@23.8465948,90.420134,19.75z">
+                    </div>
+                    <div class="field">
+                        <label>Image</label>
+                        <input type="file" accept=".png, .jpeg, .jpg">
+                    </div>
+                    <div class="field">
+                        <label>Title</label>
+                        <textarea>Leading UI/UX Designer & Developer</textarea>
+                    </div>
+                    <div class="field">
+                        <label>Paragraph</label>
+                        <textarea>Hello! I am Sifat Ahmed. My profession is UI/UX designer and developer, and I am very passionate about my work. As a professional Web Front-End & Developer with 3 years of experience, I can make your project a success with my skills and knowledge.</textarea>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- about section end -->
+    <!-- service section start -->
+    <section id="service" class="display">
+        <!-- container start -->
+        <div class="container">
+            <h5>service</h5>
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- service section end -->
+
+    <!-- showcase section start -->
+    <section id="showcase" class="display">
+        <!-- container start -->
+        <div class="container">
+            <h5>showcase</h5>
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- showcase section end -->
+
+    <!-- testimonial section start -->
+    <section id="testimonial" class="display">
+        <!-- container start -->
+        <div class="container">
+            <h5>testimonial</h5>
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- testimonial section end -->
+
+    <!-- social section start -->
+    <section id="social" class="display">
+        <!-- container start -->
+        <div class="container">
+            <h5>social</h5>
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- social section end -->
+
+
+    <!-- messages section start -->
+    <section id="messages" class="display">
+        <!-- container start -->
+        <div class="container">
+            <h5>messages</h5>
+        </div>
+        <!-- container end -->
+    </section>
+    <!-- messages section end -->
+
+
+    <!-- jquery start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="./assests/js/app.js"></script>
+    <!-- jquery end -->
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw - 27rem);
+    background: var(--black-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2.5rem;
+    transition: var(--trans-1);
+    z-index: 99;
+}
+#header.active{
+    width: calc(100vw - 6rem);
+}
+.mode{
+    width: 6rem;
+    height: 3rem;
+    background: var(--black);
+    position: relative;
+    border-radius: 5rem;
+    cursor: pointer;
+    border: 0.2rem solid #472D2D;
+    transition: var(--trans-1);
+}
+.mode.active{
+    border: 0.2rem solid #eb1616c0;
+}
+.mode > .mode-btn{
+    width: 2.6rem;
+    height: 100%;
+    position: absolute;
+    left: -0.1rem;
+    top: 0;
+    border-radius: 5rem;
+    transition: var(--trans-1);
+    background: #553939;
+}
+.mode.active > .mode-btn{
+    background: #eb1616c0;
+    left: calc(100% - 2.5rem);
+}
+
+.header-profile{
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    position: relative;
+}
+.header-profile > .img{
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.header-profile > .img > img{
+    width: 100%;
+}
+.header-profile > .text{
+    font-size: 1.8rem;
+    color: var(--gray);
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    transition: var(--trans-1);
+}
+.header-profile.active > .text{
+    color: var(--red);
+}
+.header-profile > .text > i{
+    transition: transform 0.3s ease-in-out;
+}
+.header-profile.active > .text > i{
+    transform: rotate(180deg);
+}
+.header-profile > .drop-down{
+    position: absolute;
+    top: calc(100% + 2rem);
+    width: 100%;
+    background: var(--black-2);
+    padding: 1.5rem 0;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    transition: var(--trans-1);
+}
+.header-profile.active > .drop-down{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.header-profile > .drop-down > a{
+    line-height: 3.5rem;
+    color: var(--gray);
+    transition: var(--trans-1);
+    padding: 0 1.5rem;
+}
+.header-profile > .drop-down > a:hover{
+    background: var(--black);
+    color: var(--white);
+}
+
+@media(max-width: 800px){
+    #header{
+        width: calc(100vw - 6rem);
+    }
+}

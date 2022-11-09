@@ -1,0 +1,389 @@
+@import url(./hero-animations.css);
+.hero{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+}
+.hero::after{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background: #F1FAFF;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+    z-index: -1;
+}
+.social-link-box{
+    position: fixed;
+    right: 50px;
+    top: calc(50% - 125px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px 0;
+    z-index: 3;
+}
+.social-link-box > a{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    background: var(--red);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.social-link-box > a:hover{
+    background: var(--yellow);
+    color: var(--black);
+}
+.scroll-btn{
+    position: fixed;
+    right: 50px;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 3;
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+            transform: translateY(100px);
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.scroll-btn.active{
+    -webkit-transform: translateY(-100px);
+        -ms-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 1;
+}
+.scroll-btn > a{
+    width: 40px;
+    height: 40px;
+    background: var(--yellow);
+    font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: var(--black);
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.scroll-btn > a:hover{
+    background: var(--red);
+    color: #fff;
+}
+.hero-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.hero-col{
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+}
+.hero-title{
+    font-size: 80px;
+    line-height: 80px;
+    margin: 20px 0;
+    color: var(--black);
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    z-index: 3;
+}
+.hero-title::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: var(--red);
+    bottom: 0;
+    left: 0;
+}
+.hero-para{
+    font-size: 25px;
+    line-height: 35px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    color: var(--black);
+    opacity: 0.8;
+    font-weight: 500;
+    z-index: 3;
+}
+.hero-btn{
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 3;
+}
+.hero-btn:hover > i{
+    transform: translateY(-2px);
+    animation: hero-btn 0.5s linear infinite;
+}
+@keyframes  hero-btn{
+    50%{
+        transform: translateY(4px);
+    }
+}
+.hero-right{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.hero-img{
+    width: 330px;
+    height: 430px;
+    position: relative;
+    z-index: 2;
+}
+.hero-img::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--yellow);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    -webkit-animation: hero-img 10s linear infinite;
+            animation: hero-img 10s linear infinite;
+}
+.hero-img > img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+@-webkit-keyframes hero-img{
+    0%{
+        -webkit-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+    }
+    50%{
+        -webkit-transform: rotate(-40deg);
+                transform: rotate(-40deg);
+    }
+}
+@keyframes hero-img{
+    0%{
+        -webkit-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+    }
+    50%{
+        -webkit-transform: rotate(-40deg);
+                transform: rotate(-40deg);
+    }
+}
+
+
+
+@media(max-width: 1300px){
+    .hero-title{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .hero-para{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .hero-img{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media(max-width: 1165px){
+    .hero-title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .hero-para{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .hero-img{
+        width: 280px;
+        height: 360px;
+    }
+    .hero-btn{
+        font-size: 17px;
+    }
+}
+@media(max-width: 1080px){
+    .hero-img{
+        width: 260px;
+        height: 340px;
+    }
+}
+@media(max-width: 1000px){
+    .hero-wrapper{
+        height: 100%;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        gap: 50px 0;
+    }
+    .hero-col{
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+    }
+    .hero-col:nth-child(1){
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .hero-left{
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+    }
+    .hero-para{
+        padding: 0;
+        max-width: 500px;
+    }
+    .hero-img::after{
+        display: none;
+    }
+    .hero{
+        padding: 150px 0 50px 0;
+    }
+}
+@media(max-width: 650px){
+    .social-link-box{
+        right: 30px;
+        top: calc(50% - 102.5px);
+        gap: 15px 0;
+    }
+    .social-link-box > a{
+        font-size: 22px;
+    }
+    .scroll-btn{
+        right: 30px;
+    }
+    .scroll-btn > a{
+        font-size: 27px;
+    }
+}
+@media(max-width: 600px){
+    .hero-title{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .hero-para{
+        font-size: 19px;
+        line-height: 23px;
+    }
+    .hero-img{
+        width: 240px;
+        height: 300px;
+    }
+    .hero-btn{
+        font-size: 16px;
+    }
+}
+@media(max-width: 480px){
+    .hero-title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero-para{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .hero-img{
+        width: 220px;
+        height: 270px;
+    }
+    .social-link-box{
+        right: 15px;
+    }
+    .social-link-box > a{
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+    }
+    .scroll-btn{
+        right: 15px;
+    }
+    .scroll-btn > a{
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+}
+@media(max-width: 375px){
+    .hero-title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .hero-para{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .hero-img{
+        width: 220px;
+        height: 270px;
+    }
+    .hero-btn{
+        font-size: 15px;
+    }
+}

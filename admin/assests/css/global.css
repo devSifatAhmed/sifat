@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+::selection{
+    background: var(--gray);
+    color: var(--black-2);
+}
+body{
+    --black: #f3f3f3;
+    --black-2: #D6CDA4;
+    --gray: #967E76;
+    --red: #553939;
+    --white: #472D2D;
+    --trans-1: all 0.3s ease-in-out;
+    overflow-y: scroll;
+}
+body.active{
+    background: var(--black);
+    --black: #000000;
+    --black-2: #191C24;
+    --gray: #6C7293;
+    --red: #EB1616;
+    --white: #fff;
+}
+section{
+    z-index: 5;
+}
+.display{
+    position: absolute;
+    right: 2rem;
+    width: calc(100vw - 29rem);
+    padding-top: 9.8rem;
+    padding-left: 3.5rem;
+    transition: var(--trans-1);
+    transform: scaleY(0);
+    height: 0;
+    transition: all 0.5s ease-in-out;
+    transform-origin: top;
+    z-index: -1;
+}
+.display.show{
+    display: flex;
+    transform: scaleY(1);
+    width: calc(100vw - 29rem);
+    z-index: 5;
+}
+.display.active{
+    width: calc(100vw - 8rem);
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    background: var(--black-2);
+}
+h5{
+    font-size: 3rem;
+    color: var(--white);
+    text-align: center;
+}
+
+
+.form{
+    width: 100%;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5rem 3rem;
+}
+.top > .field{
+    flex-basis: calc(50% - 3rem);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+.top > .field > label{
+    font-size: 1.8rem;
+    color: var(--white);
+}
+.top > .field > input,
+.top > .field > textarea{
+    width: 100%;
+    border: 0.3rem solid var(--gray);
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    transition: var(--trans-1);
+    color: var(--gray);
+    background: var(--black);
+}
+.top > .field > textarea{
+    resize: none;
+    min-height: 15rem;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bottom > button{
+    width: 20rem;
+    font-size: 2rem;
+    background: var(--red);
+    color: var(--black);
+    padding: 1rem 0;
+    cursor: pointer;
+    margin-top: 2rem;
+    border: 0.3rem solid transparent;
+    transition: var(--trans-1);
+}
+.bottom > button:hover{
+    background: transparent;
+    border: 0.3rem solid var(--red);
+    color: var(--gray);
+}
+
+@media(max-width: 500px){
+    .top > .field{
+        flex-basis: 100%;
+    }
+}
+
+
+
+::-webkit-scrollbar{
+    width: 1.2rem;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--red);
+}
+::-webkit-scrollbar-track{
+    background: var(--gray);
+}
+::-webkit-scrollbar-button{
+    background: var(--red);
+}
+
+@media(max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width: 1050px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width: 900px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width: 800px){
+    .display{
+        width: calc(100vw - 6.5rem) !important;
+        right: 2rem;
+    }
+}
+@media(max-width: 425px){
+    html{
+        font-size: 40%;
+    }
+}

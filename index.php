@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifat Ahmed | Web Designer & Developer</title>
+    <!-- favicon start -->
+    <link rel="shortcut icon" href="/assests/favicon.png" type="image/x-icon">
+    <!-- favicon end -->
+    <!-- text fonts start -->
+    <link rel="stylesheet" href="./assests/fonts/fonts.css">
+    <!-- text fonts end -->
+    <!-- link css style start -->
+    <link rel="stylesheet" href="./assests/css/global.css">
+    <link rel="stylesheet" href="./assests/css/header.css">
+    <link rel="stylesheet" href="./assests/css/hero.css">
+    <link rel="stylesheet" href="./assests/css/about.css">
+    <link rel="stylesheet" href="./assests/css/service.css">
+    <link rel="stylesheet" href="./assests/css/portfolio.css">
+    <link rel="stylesheet" href="./assests/css/testimonial.css">
+    <link rel="stylesheet" href="./assests/css/contact.css">
+    <!-- link css style end -->
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- cursor event start -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- cursor event end -->
+
+    <!-- header section start -->
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo-box">
+                    <div class="logo" data-aos="fade-down" data-aos-duration="3000">
+                        <a href="/" title="Sifat Ahmed">sif<span>at</span><span>.</span></a>
+                    </div>
+                </div>
+                <div class="nav-bar">
+                    <nav>
+                        <ul class="nav-list">
+                            <li data-aos="fade-down" data-aos-duration="3000"><a href="#hero">home</a></li>
+                            <li data-aos="fade-up" data-aos-duration="3000"><a href="#about">about</a></li>
+                            <li data-aos="fade-left" data-aos-duration="3000"><a href="#service">service</a></li>
+                            <li data-aos="fade-right" data-aos-duration="3000"><a href="#portfolio">portfolio</a></li>
+                            <li data-aos="zoom-in-down" data-aos-duration="3000"><a href="#testimonial">testimonial</a></li>
+                            <li data-aos="zoom-in-up" data-aos-duration="3000"><a class="btn" href="#contact">contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="three-dot-btn">
+                        <div class="three-dot-line"></div>
+                        <div class="three-dot-line"></div>
+                        <div class="three-dot-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+
+
+    <!-- hero section start -->
+    <section id="hero" class="hero">
+        <div class="circle-top-left animations"></div>
+        <div class="box-top-right animations"></div>
+        <div class="box-bottom-right animations"></div>
+        <div class="line-center-left animations"></div>
+        <div class="triangle-center-left animations">
+            >
+        </div>
+        <div class="triangle-top-center animations">
+            >
+        </div>
+        <div class="circle-box-bottom-left animations">
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+        </div>
+        <div class="circle-box-top-right animations">
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+            <div class="box-cirlcle"></div>
+        </div>
+        <div class="m-bottom-left animations">
+            <i class="fas fa-bahai"></i>
+        </div>
+        <div class="m-top-center animations">
+            <i class="fas fa-braille"></i>
+        </div>
+        <div class="less-bottom-center animations">
+            <i class="fab fa-buromobelexperte"></i>
+        </div>
+        <div class="circle-pop-up animations"></div>
+        <div class="container">
+            <div class="scroll-btn">
+                <a href="#hero">
+                    <i class="fa fa-angle-up"></i>
+                </a>
+            </div>
+            <div class="social-link-box" data-aos="fade-up" data-aos-duration="3000">
+                <a target="_blank" href="https://www.facebook.com/Programmer.SifatAhmed">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/Programmer.SifatAhmed">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" href="#twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/channel/UC0G9dYgtCN0FJjbmihvjThw">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="hero-wrapper">
+                <div class="hero-col">
+                    <div class="hero-left" data-aos="fade-up-right" data-aos-duration="3000">
+                        <span class="section-tag">I'm</span>
+                        <h1 class="hero-title">Sifat <span>Ahmed</span></h1>
+                        <p class="hero-para">
+                            An enthusiastic web UI/UX designer and developer from Dhaka, Bangladesh.
+                        </p>
+                        <a href="./assests/cv.docx" class="btn hero-btn" download><i class="fa fa-download"></i> Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-col">
+                    <div class="hero-right" data-aos="fade-down-left" data-aos-duration="3000">
+                        <div class="hero-img">
+                            <img src="./assests/images/hero.png" alt="hero" data-aos="flip-left" data-aos-duration="2000"
+                                data-aos-delay="1000">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+
+
+
+    <!-- about section start -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-wrapper" data-aos="fade-up" data-aos-duration="3000">
+                <div class="about-row">
+                    <div class="about-top">
+                        <div class="about-col-2">
+                            <div class="about-left">
+                                <div class="about-img" data-aos="zoom-out-right" data-aos-duration="3000"
+                                    data-aos-offset="250">
+                                    <img src="./assests/images/hero.jpg" alt="About Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-col-2">
+                            <div class="about-right">
+                                <span class="section-tag" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="200">About Me</span>
+                                <h1 class="section-title" data-aos="fade-up" data-aos-duration="3000"
+                                    data-aos-offset="200">Leading UI/UX Designer & Developer</h1>
+                                <p class="para about-para" data-aos="fade-up" data-aos-duration="3000"
+                                    data-aos-offset="100">
+                                    Hello! I am Sifat Ahmed. My profession is UI/UX designer and developer, and I am very passionate about my work. As a professional Web Front-End & Developer with 3 years of experience, I can make your project a success with my skills and knowledge.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-row">
+                    <div class="about-bottom" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">
+                        <div class="about-col-3" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">
+                            <label>Name</label>
+                            <span>Sifat Ahmed</span>
+                        </div>
+                        <div class="about-col-3" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">
+                            <label>E-Mail</label>
+                            <span><a href="mailto:contact@sifatahmed.com">contact@sifatahmed.com</a></span>
+                        </div>
+                        <div class="about-col-3" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">
+                            <label>Phone</label>
+                            <span><a href="tel:+8801919367347">+8801919367347</a></span>
+                        </div>
+                        <div class="about-col-3" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">
+                            <label>Address</label>
+                            <span><a target="_blank"
+                                    href="https://www.google.com/maps/@23.8465948,90.420134,19.75z">North City,
+                                    Dhaka</a></span>
+                        </div>
+                        <div class="about-col-3" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">
+                            <label>Nationality</label>
+                            <span>Bangladeshi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+
+
+
+    <!-- service section start -->
+    <section id="service" class="service">
+        <div class="container">
+            <div class="service-wrapper">
+                <span class="section-tag" data-aos="zoom-in-up" data-aos-duration="3000"
+                    data-aos-offset="200">Services</span>
+                <h1 class="section-title" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-offset="200">Which I am able to provide to you?</h1>
+                <div class="service-card-wrapper">
+                    <div class="service-card" data-aos="zoom-out-down" data-aos-duration="3000" data-aos-offset="250">
+                        <div class="card-inner">
+                            <i class="fas fa-code"></i>
+                            <h2 class="card-title">PSD to HTML</h2>
+                            <p class="para">
+                                I can also design PSD to Html. I am designing it for 3 months. I designed 10+ different types of websites. I design PSD to Html fully responsive and clean.I can also design PSD to Html.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-aos="zoom-out-up" data-aos-duration="3000" data-aos-offset="250">
+                        <div class="card-inner">
+                            <i class="fab fa-react"></i>
+                            <h2 class="card-title">Bug Fixing</h2>
+                            <p class="para">
+                                A simple Bug can destroy your website it can make your site useless.Hire me if there any bugs in your website . I will take care of them.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-aos="zoom-out-down" data-aos-duration="3000" data-aos-offset="250">
+                        <div class="card-inner">
+                            <i class="fab fa-firefox-browser"></i>
+                            <h2 class="card-title">Responsiveness</h2>
+                            <p class="para">
+                                I will provide you different layout design website and full responsive that this website you see any pixel it's will all time right.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-aos="zoom-out-up" data-aos-duration="3000" data-aos-offset="250">
+                        <div class="card-inner">
+                            <i class="fas fa-user-cog"></i>
+                            <h2 class="card-title">Optization</h2>
+                            <p class="para">
+                                Slow loading website it’s the biggest problem for every website. I can boost your website’s speed by optimization your website. And if you don’t have time to maintain your website don’t worry I’m here.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-aos="zoom-out-up" data-aos-duration="3000" data-aos-offset="250">
+                        <div class="card-inner">
+                            <i class="fas fa-briefcase"></i>
+                            <h2 class="card-title">UI Design</h2>
+                            <p class="para">
+                                The unique design is very important for every website. You and your customer seeing this website will be very fascinated.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-aos="zoom-out-down" data-aos-duration="3000" data-aos-offset="250">
+                        <div class="card-inner">
+                            <i class="fas fa-tasks"></i>
+                            <h2 class="card-title">Experience Design</h2>
+                            <p class="para">
+                                I can create any type of website for your business, portfolio, company, e-commerce store, blog etc. I provide unique, clean & awesome graphical design interface.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
+
+
+
+
+
+
+    <!-- portfolio section start -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio-wrapper">
+                <span class="section-tag" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="200">Portfolio</span>
+                <h1 class="section-title" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="150">My works that I did for clients</h1>
+                <div class="portfolio-card-container">
+                    <div class="selector-box">
+                        <button class="active" data-filter="all" data-aos="zoom-in-down" data-aos-duration="2000" data-aos-offset="100">all</button>
+                        <button data-filter="personal" data-aos="fade-down-left" data-aos-duration="2000" data-aos-offset="100">personal</button>
+                        <button data-filter="nft" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-offset="100">nft</button>
+                        <button data-filter="ecommerce" data-aos="fade-up-right" data-aos-duration="2000" data-aos-offset="100">ecommerce</button>
+                        <button data-filter="agency" data-aos="zoom-out-up" data-aos-duration="2000" data-aos-offset="100">agency</button>
+                    </div>
+                    <div class="portfolio-card-wrapper">
+                        <div class="portfolio-card nft active">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/nft-1.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/nft-1.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="portfolio-card active nft">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/nft-2.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/nft-2.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="portfolio-card active nft">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/nft-3.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/nft-3.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="portfolio-card active personal">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/personal-1.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/personal-1.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="portfolio-card active personal">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/personal-2.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/personal-2.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="portfolio-card active ecommerce">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/ecommerce-1.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/ecommerce-1.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="portfolio-card active ecommerce">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/ecommerce-2.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/ecommerce-2.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="portfolio-card active ecommerce">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/ecommerce-3.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/ecommerce-3.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="portfolio-card active agency">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-inner-img">
+                                    <img src="./assests/images/agency-1.png" alt="Portfolio Card Image">
+                                </div>
+                            </div>
+                            <div class="portfolio-outer">
+                                <div class="portfolio-outer-img">
+                                    <img src="./assests/images/agency-1.png" alt="Portfolio Detail Image">
+                                </div>
+                                <div class="close-outer-img">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end -->
+
+
+
+
+
+
+    <!-- testimoanial section start -->
+    <section id="testimonial" class="testimonial">
+        <div class="container">
+            <div class="testimonial-wrapper">
+                <span class="section-tag" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-offset="200">Testimonial</span>
+                <h1 class="section-title" data-aos="zoom-in-up" data-aos-duration="3000" data-aos-offset="200">My Client Reviews</h1>
+                <div class="slider">
+                    <div class="slide" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="250">
+                        <div class="slide-icon">
+                            <img src="./assests/images/testimonial-3.jpg" alt="testimonial">
+                        </div>
+                        <h3>Ahmed Jubair</h3>
+                        <p class="para">
+                            Always a pleasure to work with - even though we encountered sometechnical difficulties he was flexible and worked through them
+                        </p>
+                    </div>
+                    <div class="slide" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="250">
+                        <div class="slide-icon">
+                            <img src="./assests/images/testimonial-4.jpg" alt="testimonial">
+                        </div>
+                        <h3>Monoj Kumar</h3>
+                        <p class="para">
+                            Great experience, highly recommend. Worked through all my questions with me and was very timely in his responsiveness.
+                        </p>
+                    </div>
+                    <div class="slide" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="250">
+                        <div class="slide-icon">
+                            <img src="./assests/images/testimonial-5.jpg" alt="testimonial">
+                        </div>
+                        <h3>Goutam Paik</h3>
+                        <p class="para">
+                            He was excellent to work with, and he did a great job fixing some issues that we had
+                        </p>
+                    </div>
+                    <div class="slide" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="250">
+                        <div class="slide-icon">
+                            <img src="./assests/images/testimonial-1.jpg" alt="testimonial">
+                        </div>
+                        <h3>Hilari Clinton</h3>
+                        <p class="para">
+                            Great experience, highly recommend. Worked through all my questions with me and was very timely in his responsiveness.
+                        </p>
+                    </div>
+                    <div class="slide" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="250">
+                        <div class="slide-icon">
+                            <img src="./assests/images/testimonial-2.jpg" alt="testimonial">
+                        </div>
+                        <h3>John Adams</h3>
+                        <p class="para">
+                            Super fast and very experienced. We weren't able to get one thing done, but it wasn't his fault. I will definitely use him again. Very nice guy!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimoanial section end -->
+
+
+
+
+
+
+
+    <!-- contact section start -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <span class="section-tag" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="100">Contact</span>
+                <h1 class="section-title" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="100">Send me a message!</h1>
+                <div class="contact-form">
+                    <form id="form" action="/">
+                        <div class="field" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-offset="100">
+                            <label for="name">name</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="field" data-aos="zoom-in-up" data-aos-duration="3000" data-aos-offset="100">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="field" data-aos="fade-down" data-aos-duration="3000" data-aos-offset="100">
+                            <label for="subject">subject</label>
+                            <input type="text" name="subject" id="subject" required>
+                        </div>
+                        <div class="field" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="100">
+                            <label for="message">message</label>
+                            <textarea name="message" id="message" required> </textarea>
+                        </div>
+
+                        <input type="submit" class="btn" id="button" value="Send" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-offset="100">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- aos cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos init -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- email.js init -->
+    <script src="./assests/js/email.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init('nlJOsfyK9nti2Gyon');
+    </script>
+    <!-- link js start -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assests/js/scrollwatch.js"></script>
+    <script src="./assests/js/custom.js"></script>
+    <!-- link js end -->
+    <!-- slick slider cdn -->
+</body>
+
+</html>
